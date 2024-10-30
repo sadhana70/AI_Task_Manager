@@ -1,0 +1,102 @@
+/* index.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white; /* Light background for better contrast */
+  margin: 0;
+  padding: 30px;
+  color: #333; /* Default text color */
+}
+
+h1 {
+  color: #2c3e50; /* Darker title color */
+  margin-bottom: 20px; /* Space below title */
+  text-align: center; /* Center align the title */
+  margin-top: 10px;
+}
+
+h2 {
+  color: #1b557c; /* Distinct color for category titles */
+  margin-bottom: 10px; /* Space below category titles */
+  text-align: center; /* Center align category titles */
+}
+
+input,
+textarea {
+  transition: border-color 0.2s ease;
+  padding: 10px; /* Added padding for better usability */
+  border: 2px solid #ccc; /* Default border color */
+  border-radius: 5px; /* Rounded corners */
+  width: calc(100% - 20px); /* Full width minus padding */
+  margin-bottom: 20px; /* Space below input fields */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2980b9; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background-color: #1b557c; /* Button color */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s ease; /* Transition for hover effect */
+  width: 100%; /* Full width for the button */
+}
+
+button:hover {
+  background-color: #4986c2; /* Darker shade on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  background-color: white; /* Background color for tasks */
+  border: 1px solid #ddd; /* Light border around tasks */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside task boxes */
+  margin-bottom: 10px; /* Space below task boxes */
+  transition: box-shadow 0.2s ease; /* Transition for shadow effect */
+}
+
+li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.bg-gray-100 {
+  background-color: white; /* Customize background for sections */
+}
+
+
+
+.text-gray-500 {
+  color: #7d7d7d; /* Lighter text color for secondary information */
+}
+
+.capitalize {
+  text-transform: capitalize; /* Ensure category names are capitalized */
+}
+
+.grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 1.5rem; /* Space between grid items */
+}
+
+.category {
+  padding: 10px; /* Padding around categories */
+  background-color: #f0f0f0; /* Light gray background for category boxes */
+  border-radius: 8px; /* Rounded corners for categories */
+}
+
+.task-container {
+  margin-bottom: 20px; /* Space below each category */
+}
